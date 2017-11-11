@@ -51,7 +51,7 @@
         .attr('visible', true)
 
       d3.select(this)
-        .select('a-sphere')
+        .select('a-circle')
         .attr('color', '#018571')
     })
 
@@ -61,7 +61,7 @@
         .attr('visible', false)
 
       d3.select(this)
-        .select('a-sphere')
+        .select('a-circle')
         .attr('color', '#80cdc1')
     })
   }
