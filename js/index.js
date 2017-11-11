@@ -19,7 +19,7 @@
       })
 
     // appending a box within each entity
-    newobj.append('a-sphere')
+    newobj.append('a-circle')
       .attr('color', '#80cdc1')
       .attr('radius', function (d, i) {
         return d.v
@@ -30,7 +30,7 @@
       })
 
     // update height of each box
-    entities.select('a-sphere')
+    entities.select('a-circle')
       .attr('radius', function (d, i) {
         return d.v
       })
